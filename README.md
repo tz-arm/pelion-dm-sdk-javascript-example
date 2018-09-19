@@ -33,25 +33,22 @@ $ npm install
 ```
 
 ### API Keys
-These examples utilise a [config.js](config.js) file which can read an API Key (and optionally a host) from an environment variable, a command line switch or from the file itself, Set your API key and other variables like device ID (Endpoint Name) in `config.js`.
+These examples utilise a [config.js](config.js) file which can read an API Key (and optionally a host) from an environment variable, a command line switch or from the file itself.
 
-* You can simply edit the [config.js](node/config.js) file and add your key.
+* You can simply edit the [config.js](node/config.js) file and add your key nd other variables like device ID (Endpoint Name)
 
-or 
+  or 
 * To use environment variables, set the varaible `MBED_CLOUD_SDK_API_KEY` prior to running the application. e.g.:
 
     ```bash
     $ export MBED_CLOUD_SDK_API_KEY=<Mbed Cloud API Key>
     ```
-or 
-
+  or 
 * To use a command line switch, pass your API key to the program being run. e.g.:
-
     ```bash
     $ node <path to example.js> <Mbed Cloud API Key>
     ```
     or:
-
     ```bash
     $ node <path to example.js> --apiKey=<Mbed Cloud API Key>
     ```
@@ -64,10 +61,9 @@ or
 
 # Build New Application
 
-The SDK is distributed using npm, init new project and install the package in your project:
+The SDK is distributed using npm, create new project and install the package in your project:
 
 ```bash
-/* */
 $ npm init  
 $ mkdir myApp
 $ cd myApp
