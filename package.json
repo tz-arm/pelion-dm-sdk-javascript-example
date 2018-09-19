@@ -1,0 +1,23 @@
+{
+  "name": "pelion-dm-sdk-javascript-example",
+  "version": "1.0.0",
+  "description": "examples for pelion device management javascript sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tz-arm/pelion-dm-sdk-javascript-example.git"
+  },
+  "author": "TerenceZhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tz-arm/pelion-dm-sdk-javascript-example/issues"
+  },
+  "homepage": "https://github.com/tz-arm/pelion-dm-sdk-javascript-example#readme",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "mbed-cloud-sdk": "^2.0.1"
+  }
+}
