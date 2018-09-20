@@ -64,9 +64,9 @@ These examples utilise a [config.js](config.js) file which can read an API Key (
 The SDK is distributed using npm, create new project and install the package in your project:
 
 ```bash
-$ npm init  
 $ mkdir myApp
 $ cd myApp
+$ npm init  (optional, create package.json)
 $ npm install mbed-cloud-sdk
 ```
 
